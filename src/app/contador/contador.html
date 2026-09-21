@@ -1,0 +1,20 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-5 text-center">
+
+      <div class="card shadow p-4">
+        <h3 class="mb-3">Contador</h3>
+        <hr>
+
+        <h1 class="display-3 my-3">{{ numero }}</h1>
+
+        <div class="d-flex justify-content-center gap-2">
+          <button class="btn btn-danger" (click)="restar()">Restar</button>
+          <button class="btn btn-secondary" (click)="reiniciar()">Reiniciar</button>
+          <button class="btn btn-success" (click)="sumar()">Sumar</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
